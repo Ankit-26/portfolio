@@ -1,0 +1,67 @@
+$line-active: #275efe;
+
+.pic-animation {
+  animation: anim 30s infinite;
+  border-radius: 30% 70% 53% 47% / 26% 46% 54% 74%;
+  border: 2px solid black;
+  animation-timing-function: linear;
+
+  height: 40vmin;
+  cursor: pointer;
+  width: 40vmin;
+}
+
+@keyframes anim {
+  0%,
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 52% 48% 70%;
+  }
+
+  10% {
+    border-radius: 50% 50% 20% 80% / 25% 80% 20% 75%;
+  }
+
+  20% {
+    border-radius: 67% 33% 47% 53% / 37% 20% 80% 63%;
+  }
+
+  30% {
+    border-radius: 39% 61% 47% 53% / 37% 40% 60% 63%;
+  }
+
+  40% {
+    border-radius: 39% 61% 82% 18% / 74% 40% 60% 26%;
+  }
+
+  50% {
+    border-radius: 100%;
+  }
+
+  60% {
+    border-radius: 50% 50% 53% 47% / 72% 69% 31% 28%;
+  }
+
+  70% {
+    border-radius: 50% 50% 53% 47% / 26% 22% 78% 74%;
+  }
+
+  80% {
+    border-radius: 50% 50% 53% 47% / 26% 69% 31% 74%;
+  }
+
+  90% {
+    border-radius: 20% 80% 20% 50% / 20% 30% 20% 80%;
+  }
+}
+
+.link-anim {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .8s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23bd1199' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-position-y: 28px;
+  background-size: auto 6px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  &:hover {
+    color: slategray;
+  }
+}

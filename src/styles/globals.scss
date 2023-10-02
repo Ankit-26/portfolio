@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./partials/normalize";
+@import "./partials/components/home";
+@import "./partials/components/about";
+@import "./partials/components/mobileMenu";
