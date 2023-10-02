@@ -58,7 +58,10 @@ function Project({
           <div className="flex flex-wrap gap-y-2">
             {skills.map((skill, index) => {
               return (
-                <span class="bg-gray-100 text-gray-800 text-xm font-medium mr-2 px-3 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300">
+                <span
+                  key={index}
+                  class="bg-gray-100 text-gray-800 text-xm font-medium mr-2 px-3 py-0.5 rounded-full dark:bg-gray-700 dark:text-gray-300"
+                >
                   {skill}
                 </span>
               );

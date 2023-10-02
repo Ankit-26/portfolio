@@ -12,18 +12,28 @@ function Contact() {
           Contact
         </h2>
         <p className="leading-normal text-lg font-semibold break-words">
-          Don't be shy! Hit me up! 👇🏻
+          {`Don't be shy! Hit me up!`} 👇🏻
         </p>
         <div className="flex justify-between mt-10 w-full max-md:flex-col max-md:gap-10">
           <div className="flex gap-3 max-md:flex-col max-md:items-center">
-            <Image src={"/assets/icons/location.gif"} width={30} height={10} />
+            <Image
+              src={"/assets/icons/location.gif"}
+              width={30}
+              height={10}
+              alt={"location"}
+            />
             <div>
               <h3 className="font-semibold max-md:text-center">Location</h3>
               <p className="text-slate-gray">Bengaluru, India</p>
             </div>
           </div>
           <div className="flex gap-3 max-md:flex-col max-md:items-center">
-            <Image src={"/assets/icons/mail.gif"} width={30} height={10} />
+            <Image
+              src={"/assets/icons/mail.gif"}
+              width={30}
+              height={10}
+              alt={"mail"}
+            />
             <div>
               <h3 className="font-semibold max-md:text-center">Mail</h3>
               <p className="text-slate-gray">sharma.ankit2698@gmail.com</p>
