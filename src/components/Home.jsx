@@ -93,6 +93,7 @@ function Home() {
         <img
           src={"/assets/images/profile-pic.png"}
           className="pic-animation"
+          alt="coding"
         ></img>
       </div>
     </section>

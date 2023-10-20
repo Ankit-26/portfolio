@@ -33,6 +33,16 @@ function Portfolio() {
             ]}
           />
           <Project
+            code={"https://github.com/Ankit-26/nike"}
+            demoLink={"https://luxury-pasca-d9e70b.netlify.app/"}
+            mediaType={"image"}
+            mediaSrc={"/assets/images/nike.png"}
+            projImg={"/assets/icons/nikeIcon.svg"}
+            intro={`This is a Nike e-commerce website with responsive good looking design developed using React,tailwind,redux. Major features: Infinite scroll, Wishlist ,Add to Cart etc`}
+            projTitle={"Nike"}
+            skills={["React.js", "Sass", "HTML", "Tailwind"]}
+          />
+          <Project
             code={"https://github.com/Ankit-26/dndToDo"}
             demoLink={"https://rainbow-yeot-c20a02.netlify.app/"}
             reverse
@@ -50,16 +60,6 @@ function Portfolio() {
               "React Portal",
               "Tailwind",
             ]}
-          />
-          <Project
-            code={"https://github.com/Ankit-26/nike"}
-            demoLink={"https://venerable-heliotrope-4ce2d5.netlify.app/"}
-            mediaType={"image"}
-            mediaSrc={"/assets/images/nike.png"}
-            projImg={"/assets/icons/nikeIcon.svg"}
-            intro={`This is a Nike e-commerce website landing page. Created usig tailwind, it's an example of responsive website. It is also going to be a e-commerce website.`}
-            projTitle={"Nike"}
-            skills={["React.js", "Sass", "HTML", "Tailwind"]}
           />
         </div>
       </div>
