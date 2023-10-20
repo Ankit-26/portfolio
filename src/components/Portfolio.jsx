@@ -38,8 +38,8 @@ function Portfolio() {
             mediaType={"image"}
             mediaSrc={"/assets/images/nike.png"}
             projImg={"/assets/icons/nikeIcon.svg"}
-            intro={`This is a Nike e-commerce website with responsive good looking design developed using React,tailwind,redux. Major features: Infinite scroll, Wishlist ,Add to Cart etc`}
-            projTitle={"Nike"}
+            intro={`This is a Shoes e-commerce website with responsive good looking design developed using React,tailwind,redux. Major features: Infinite scroll, Wishlist ,Add to Cart etc`}
+            projTitle={"Shoes Ecommerce Website"}
             skills={["React.js", "Sass", "HTML", "Tailwind"]}
           />
           <Project
