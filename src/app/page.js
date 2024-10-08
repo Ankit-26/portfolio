@@ -6,7 +6,7 @@ import Portfolio from "@/components/Portfolio";
 
 export default function App() {
   return (
-    <main className="min-h-screen pb-32">
+    <main className="min-h-screen pb-16">
       <Header />
       <div className="p-1"></div>
       <Home />

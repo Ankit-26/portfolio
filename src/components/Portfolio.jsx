@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Project from "./Project";
 
@@ -12,9 +11,28 @@ function Portfolio() {
         <h2 className="leading-normal text-blue-600 font-bold text-2xl max-md:text-center">
           MY PROJECTS AND EXPERIENCE
         </h2>
-        <div className="flex flex-col gap-32 ">
+        <div className="flex flex-col gap-24 ">
           <Project
-            company
+            reverse={true}
+            company={"Logan"}
+            mediaType={"video"}
+            mediaSrc={"/assets/video/Logan.mp4"}
+            intro={`This is a AI capabilties editor specifically tailored for French lawers and professionals. It is a tool that allows users to create, edit, and manage legal documents and contracts. It also has Google Drive like folder and file management system with all the capabilities like google drive.`}
+            projTitle={"Logan"}
+            skills={[
+              "Next.js",
+              "React.js",
+              "Redux Toolkit",
+              "Sass",
+              "Shadcn UI",
+              "Typescript",
+              "Javascript",
+              "HTML",
+              "Tiptap",
+            ]}
+          />
+          <Project
+            company={"42Students"}
             mediaType={"video"}
             mediaSrc={"/assets/video/42LMS.mp4"}
             projImg={"/assets/icons/lms.png"}

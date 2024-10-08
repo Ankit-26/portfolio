@@ -18,9 +18,10 @@ function Contact() {
           <div className="flex gap-3 max-md:flex-col max-md:items-center">
             <Image
               src={"/assets/icons/location.gif"}
-              width={30}
-              height={10}
+              width={35}
+              height={5}
               alt={"location"}
+              className="h-11"
             />
             <div>
               <h3 className="font-semibold max-md:text-center">Location</h3>
@@ -30,9 +31,10 @@ function Contact() {
           <div className="flex gap-3 max-md:flex-col max-md:items-center">
             <Image
               src={"/assets/icons/mail.gif"}
-              width={30}
+              width={35}
               height={10}
               alt={"mail"}
+              className="h-11"
             />
             <div>
               <h3 className="font-semibold max-md:text-center">Mail</h3>
@@ -40,7 +42,13 @@ function Contact() {
             </div>
           </div>
           <div className="flex gap-3 max-md:flex-col max-md:items-center">
-            <Image src={"/assets/icons/call.gif"} width={30} height={10} />
+            <Image
+              src={"/assets/icons/call.gif"}
+              width={35}
+              height={10}
+              alt={"call"}
+              className="h-11"
+            />
             <div>
               <h3 className="font-semibold max-md:text-center">Call</h3>
               <p className="text-slate-gray">+91 9589991316</p>
