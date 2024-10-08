@@ -10,7 +10,7 @@ function Home() {
       <div className="w-[60%] max-md:w-[80%] flex gap-12 max-md:flex-col-reverse max-md:items-center">
         <div>
           <h1 className="font-extrabold text-5xl leading-snug font-[sans-serif] break-keep max-md:text-center">
-            Front-End Ract (Next.js) Developer 👋🏻
+            Front-End React (Next.js) Developer 👋🏻
           </h1>
           <p className="mt-3 leading-normal text-lg text-slate-gray max-md:text-center">
             {`Hi, I'm Ankit Sharma. A passionate Front-End React (Next.js)
