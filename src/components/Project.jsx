@@ -18,6 +18,10 @@ function Project({
         "flex gap-5 mb-5 max-md:flex-col" + (reverse ? " flex-row-reverse" : "")
       }
     >
+     <div className="flex gap-2 justify-center items-center leading-normal font-bold text-center md:hidden">
+          <span className="text-xl">{projTitle}</span>
+          {company && <span>({company})</span>}
+        </div>
       <div className="flex-1 ">
         {mediaType == "image" ? (
           <div>

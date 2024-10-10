@@ -17,7 +17,7 @@ function Portfolio() {
             company={"Logan"}
             mediaType={"video"}
             mediaSrc={"/assets/video/Logan.mp4"}
-            intro={`This is a AI capabilties editor specifically tailored for French lawers and professionals. It is a tool that allows users to create, edit, and manage legal documents and contracts. It also has Google Drive like folder and file management system with all the capabilities like google drive.`}
+            intro={`This is a AI powered editor specifically tailored for French lawers and professionals. It is a tool that allows users to create, edit, and manage legal documents and contracts. It also has Google Drive like folder and file management system with all the capabilities like google drive.`}
             projTitle={"Logan"}
             skills={[
               "Next.js",
