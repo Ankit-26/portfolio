@@ -14,7 +14,7 @@ function Home() {
           </h1>
           <p className="mt-3 leading-normal text-lg text-slate-gray max-md:text-center">
             {`Hi, I'm Ankit Sharma. A passionate Front-End React (Next.js)
-            developer with 3.5+ years of experience based in Bengaluru, India.`}
+            developer with 4.5+ years of experience based in Bengaluru, India.`}
             📍
           </p>
           <div className="my-4 flex gap-4 items-center max-md:justify-center">

@@ -23,9 +23,9 @@ function About() {
             India. 📍
           </p>
           <p className="mt-1 text-slate-gray text-left max-md:text-justify">
-            {`I'm a front-end developer with 3.5+ years of experience, I possess an
-            impressive arsenal of skills in Next.js, React.js, Javascript, Sass,
-            Tailwind, Redux Toolkit, etc. My expertise lies in crafting dynamic,
+            {`I'm a front-end developer with 4.5+ years of experience, I possess an
+            impressive arsenal of skills in Next.js, React.js, Javascript, Scss,
+            Tailwind, Redux Toolkit, Zustand, Shadcn/ui etc. My expertise lies in crafting dynamic,
             engaging interfaces through writing optimized and clean code and
             using cutting-edge development tools and techniques. I'm also a team
             player who thrives in collaborating with cross-functional teams to

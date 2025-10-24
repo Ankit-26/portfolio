@@ -22,13 +22,15 @@ function Portfolio() {
             skills={[
               "Next.js",
               "React.js",
-              "Redux Toolkit",
-              "Sass",
+              "Zustand",
+              "Scss",
               "Shadcn UI",
               "Typescript",
               "Javascript",
               "HTML",
               "Tiptap",
+              "Tailwind css",
+              "useSWR"
             ]}
           />
           <Project
